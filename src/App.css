@@ -32,7 +32,76 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* CSS APPLY */
+
+#incBtn {
+  background-color: rgb(163, 153, 8);
+  color: white;
+  padding: 8px;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+#incBtn:hover {
+  border: 2px solid black;
+}
+
+#incBtn:active {
+  box-shadow: 2px 2px 2px #282c34;
+}
+
+#decBtn {
+  background-color: rgb(7, 105, 7);
+  color: white;
+  padding: 8px;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+#decBtn:hover {
+  border: 2px solid black;
+}
+
+#decBtn:active {
+  box-shadow: 2px 2px 2px #282c34;
+}
+
+#ResBtn {
+  background-color: rgb(190, 7, 7);
+  color: white;
+  padding: 8px;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+#ResBtn:hover {
+  border: 2px solid black;
+}
+
+#ResBtn:active {
+  box-shadow: 2px 2px 2px #282c34;
+}
+
+button {
+  margin: 10px;
+}
+
+#value {
+  font-size: 50px;
+}
+
+body {
+  background-color: #22262c;
 }
